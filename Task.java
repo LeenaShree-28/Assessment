@@ -3,7 +3,7 @@ import java.util.*;
 public class Task {
     public int findDuplicates(int[] arr) {
         ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (!list.contains(arr[i])) {
                 list.add(arr[i]);
             } else {
