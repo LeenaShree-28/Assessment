@@ -22,6 +22,7 @@ public class Game {
 		int minusClubThree = num1 - Integer.parseInt(Integer.toString(num2).concat(Integer.toString(num3)).concat(Integer.toString(num4)));
 		String ansminusClubThree = num1 + " - " + Integer.parseInt(Integer.toString(num2).concat(Integer.toString(num3)).concat(Integer.toString(num4)));
 		hMap.put(minusClubThree, ansminusClubThree);
+		
 		for (Map.Entry check : hMap.entrySet()) {
 			if (check.getKey().equals(result)) {
 				System.out.println("Answer : \n" + check.getValue());
